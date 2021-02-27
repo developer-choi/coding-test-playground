@@ -1,3 +1,5 @@
+export {};
+
 // https://programmers.co.kr/learn/courses/30/lessons/42842
 const TOTAL_CORNER = 4;
 

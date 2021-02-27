@@ -1,3 +1,5 @@
+export {};
+
 function aFunc(index: number) {
   return index % 5 + 1;
 }
@@ -63,5 +65,5 @@ function solution(answers: number[]) {
   return topMagicArray.sort();
 }
 
-console.log([1,2,3,4,5]);
-console.log([1,3,2,4,2]);
+console.log(solution([1, 2, 3, 4, 5]));
+console.log(solution([1, 3, 2, 4, 2]));
