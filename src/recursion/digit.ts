@@ -1,5 +1,6 @@
 export {};
 
+//https://okky.kr/article/890116
 function solution(membershipId: string): number {
   const sum = membershipId.split('').reduce((a, b) => a + Number(b), 0);
   if (sum >= 10) {
